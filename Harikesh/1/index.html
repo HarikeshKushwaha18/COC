@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-color: #080427;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item {
+        background-color: #080427;
+        height: 600px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .c1 {
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 170px;
+        height: 250px;
+        width: 250px;
+        border: 30px solid #080427;
+        border-radius: 200px;
+        background-color: #ecbda1;
+    }
+
+    .c2 {
+        position: absolute;
+        margin-top: 280px;
+        margin-left: 170px;
+
+
+        height: 250px;
+        width: 250px;
+        border: 30px solid #080427;
+        border-radius: 200px;
+        background-color: #ecbda1;
+    }
+
+    .v {
+        width: 600px;
+        height: 200px;
+        background-color: #da8985;
+        border-radius: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .c11 {
+        height: 160px;
+        width: 160px;
+        border-radius: 180px;
+        background-color: #080427;
+        margin-left: 20px;
+        margin-top: 20px;
+
+    }
+
+    .c12 {
+        height: 160px;
+        width: 160px;
+        border-radius: 100px;
+        background-color: #080427;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="c1"></div>
+            <div class="v">
+                <div class="c11"></div>
+                <div class="c12"></div>
+            </div>
+            <div class="c2"></div>
+        </div>
+    </div>
+</body>
+
+</html>
